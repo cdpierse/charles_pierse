@@ -1,0 +1,17 @@
+.about-section{
+    background-color: #f3faff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin: 5px; */
+    width: 100%;
+}
+
+.about-me {
+    padding-top: 30px;
+    
+}
+
+.about-me-text {
+    text-align: left;
+    padding: 20px;
+}
