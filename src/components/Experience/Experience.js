@@ -6,29 +6,8 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import IL from "../../assets/images/IL.png";
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    display: "flex",
-    "& > *": {
-      margin: theme.spacing(1)
-    }
-  },
-  small: {
-    width: theme.spacing(3),
-    height: theme.spacing(3)
-  },
-  large: {
-    boxShadow: " 16px 16px 32px #c5cbcf, -16px -16px 32px #ffffff;",
-    margin: "0 Auto",
-    width: theme.spacing(25),
-    height: theme.spacing(25)
-  }
-}));
 
 const Experience = () => {
-  const classes = useStyles();
   return (
     <div className="about-section">
       <div className="container">
@@ -36,10 +15,10 @@ const Experience = () => {
           <div className="row">
             <div className="col md-6 about-me">
               <i class="fas fa-briefcase fa-3x"></i>
-
+              <br />
+              <br />
               <h2>Work</h2>
               <hr />
-
               <VerticalTimeline layout="1">
                 <VerticalTimelineElement
                   className="vertical-timeline-element--work"
@@ -58,13 +37,14 @@ const Experience = () => {
                 >
                   <h3 className="vertical-timeline-element-title">
                     Data Scientist
+                    <hr />
                   </h3>
                   <h3 className="vertical-timeline-element-subtitle">
                     Irish Life
                   </h3>
                   <p>
                     Developing ML models to improve customer experience and
-                    optimise business processes.
+                    optimise business processes across Irish Life Group.
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -74,19 +54,24 @@ const Experience = () => {
                 >
                   <h3 className="vertical-timeline-element-title">
                     Data Analyst and Developer
+                    <hr />
                   </h3>
+
                   <h3 className="vertical-timeline-element-subtitle">
-                    Borrowfox LTD
+                    Borrowfox
                   </h3>
                   <p>
-                    Creative Direction, User Experience, Visual Design, SEO,
-                    Online Marketing
+                    Carried out analysis of marketplace trends and rental
+                    statistics to optimise and inform strategy. Developed
+                    keyword extraction API for user searches and query matching.
                   </p>
                 </VerticalTimelineElement>
               </VerticalTimeline>
             </div>
             <div className="col md-6 about-me">
               <i class="fas fa-university fa-3x"></i>
+              <br />
+              <br />
               <h2>Education</h2>
               <hr />
               <VerticalTimeline layout="1" position="left">
@@ -107,7 +92,8 @@ const Experience = () => {
                   }}
                 >
                   <h3 className="vertical-timeline-element-title">
-                    BSC Computer Science
+                    BSc Computer Science
+                    <hr />
                   </h3>
                   <h3 className="vertical-timeline-element-subtitle">
                     University College Dublin
@@ -116,7 +102,7 @@ const Experience = () => {
                     First Class Honours
                   </h5>
                   <p>
-                    Focus on machine learning and data science. Final year
+                    Focus on Machine Learning and Data Science. Final year
                     research project concentrating on NLP and textual analysis
                     of film scripts.
                   </p>
@@ -125,17 +111,18 @@ const Experience = () => {
                   className="vertical-timeline-element--work"
                   date="Septmeber 2016 - September 2017"
                   iconStyle={{ background: "#00aff5", color: "#fff" }}
-                  //   icon={<WorkIcon />}
                 >
                   <h3 className="vertical-timeline-element-title">
-                    MSC Modernist Literature and Philosophy
+                    MSc Modernist Literature and Philosophy
+                    <hr />
                   </h3>
                   <h4 className="vertical-timeline-element-subtitle">
                     University Of Edinburgh
                   </h4>
                   <p>
-                    Creative Direction, User Experience, Visual Design, SEO,
-                    Online Marketing
+                    Studied Modernist Literature and Philosophy from
+                    1900-Present. Special focus on Critical Theory,Philosophy,
+                    and Language.
                   </p>
                 </VerticalTimelineElement>
               </VerticalTimeline>

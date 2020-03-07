@@ -167,6 +167,7 @@ const Skills = () => {
           </div>
         </Slide>
       </div>
+
     </div>
   );
 };
