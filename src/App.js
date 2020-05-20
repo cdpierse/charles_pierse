@@ -5,6 +5,7 @@ import Jumbo from "./components/Jumbo/Jumbo";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
+// import Projects from "./components/Projects/Projects"
 
 import "./styles.css";
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Experience />
+      {/* <Projects/> */}
     </div>
   );
 }

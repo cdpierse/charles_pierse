@@ -9,26 +9,27 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./styles.css";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    width: "100%"
+    width: "80%",
+    margin: "0 auto",
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightMedium,
     fontFamily: "Comfortaa",
-    width: "20rem",
-    padding: "5px"
+    width: "10rem",
+    padding: "5px",
   },
   icon: {
-    marginLeft: "1rem"
+    marginLeft: "5px",
   },
   content: {
     fontFamily: "Comfortaa",
     fontSize: theme.typography.pxToRem(14),
     fontWeight: theme.typography.fontWeightLight,
-    textAlign: "left"
-  }
+    textAlign: "left",
+  },
 }));
 
 const Skills = () => {
@@ -42,11 +43,11 @@ const Skills = () => {
               <h1>What I Do</h1>
 
               <p className="about-me-text">
-                I work primarily with python for data analysis, engineering, and
-                modelling. SQL for data extraction and ETL. I have experience
-                using React and JavaScript to build front end applications to
-                provide interfaces to models. More recently I've been enjoying
-                using Go to build robust API services and systems.
+                I work primarily with Python for data engineering, modelling,
+                and analysis. I use SQL for data extraction and ETL. I'm
+                experienced using React and JavaScript to build front end
+                applications. More recently I've been enjoying using Go to build
+                robust API services and systems.
               </p>
             </div>
             <div className="col md-6 about-me">
@@ -71,12 +72,14 @@ const Skills = () => {
                     <Typography className={classes.content}>
                       <hr />
                       I've been a Python programmer for a number of years and
-                      use it as my primary tool for working with data. I'm
-                      highly experienced using Numpy and Pandas for data
-                      analysis, manipulation and processing. For machine
-                      learning I use libraries such as Scikit-learn, Tensorflow,
-                      Pytorch, and Spacy for modelling and implementing ML
-                      algorithms. <br />
+                      use it as my primary tool for working with data and
+                      building software. I'm highly experienced using Numpy and
+                      Pandas for data analysis, manipulation and processing. For
+                      machine learning I use libraries such as Scikit-learn,
+                      Tensorflow, Pytorch. For NLP related projects I like to
+                      use tools like Spacy and Hugging Face's Tranformers
+                      package for modelling and implementing state of the art
+                      NLP algorithms. <br />
                       <br />
                       I use Jupyter lab and notebooks extensively when exploring
                       datasets.
@@ -148,17 +151,21 @@ const Skills = () => {
                       work.
                       <br />
                       <br />
-                      I'm comforable building API endpoints to deliver
-                      predictive model's as web services. In Python I've used
-                      Flask to create REST API's. For front-end development I
-                      primarily use React and JavaScript, and have used
-                      framworks such as Bootstrap and Material-UI for layouts
-                      and design (including this site).
+                      I'm comforable developing API's to deliver model's as
+                      services. In Python I typically use Flask to develop
+                      API's. For front-end development I primarily use React and
+                      JavaScript, and have used framworks such as Bootstrap and
+                      Material-UI for layouts and design (including this site).
                       <br />
                       <br />
-                      I'm also a Go enthisiast and really enjoy developing in
-                      the language due to its highly structured syntax and
-                      robust type checking.
+                      For CI/CD I'm comfortable using Docker for deploying
+                      models and applications in a scalable and highly
+                      maintainble manner.
+                      <br />
+                      <br />
+                      I'm also a huge Go enthisiast and really enjoy developing
+                      in the language due to its minimalism and transparency as
+                      a language.
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -167,7 +174,6 @@ const Skills = () => {
           </div>
         </Slide>
       </div>
-
     </div>
   );
 };

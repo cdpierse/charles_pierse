@@ -33,7 +33,7 @@ const About = () => {
       <div className="container">
         <Slide bottom>
           <div className="row">
-            <div className="col md-6 about-me">
+            <div className="col-sm-6 about-me">
               <Avatar
                 alt="Charles Pierse"
                 src={avatar}
@@ -43,16 +43,16 @@ const About = () => {
               <br />
               <Wobble>
                 <div className="row">
-                  <div className="col">
+                  <div className="col m-1">
                     <SocialIcon url="https://www.linkedin.com/in/charles-pierse/" />
                   </div>
-                  <div className="col">
+                  <div className="col m-1">
                     <SocialIcon url="https://github.com/cdpierse" />
                   </div>
-                  <div className="col">
+                  <div className="col m-1">
                     <SocialIcon url="https://medium.com/@charlespierse" />
                   </div>
-                  <div className="col">
+                  <div className="col m-1">
                     <SocialIcon
                       url="mailto:charlespierse@gmail.com"
                       network="email"
@@ -61,12 +61,11 @@ const About = () => {
                 </div>
               </Wobble>
             </div>
-            <div className="col md-6 about-me">
+            <div className="col-sm-6 about-me">
               <h1>Who Am I ?</h1>
               <p className="about-me-text">
-                I'm a Data Scientist and Software Developer with a passion for
-                building end-to-end intelligent systems and delivering insight
-                driven actions. I use machine learning, AI, predictive analysis,
+                I'm a Data Scientist and Machine Learning Engineer with a passion for
+                building end-to-end intelligent systems. I use machine learning, AI, predictive analysis,
                 and data exploration to solve problems, and discover what makes
                 us tick and why.
                 <br></br>

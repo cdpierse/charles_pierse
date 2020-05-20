@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Slide from "react-reveal/Slide";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
@@ -24,15 +24,15 @@ const Experience = () => {
                   className="vertical-timeline-element--work"
                   contentStyle={{
                     background: "#304160",
-                    color: "#fff"
+                    color: "#fff",
                   }}
                   contentArrowStyle={{
-                    borderRight: "7px solid  #304160"
+                    borderRight: "7px solid  #304160",
                   }}
                   date="April 2019 - Present"
                   iconStyle={{
                     background: "#304160",
-                    color: "#304160"
+                    color: "#304160",
                   }}
                 >
                   <h3 className="vertical-timeline-element-title">
@@ -80,15 +80,15 @@ const Experience = () => {
                   position="left"
                   contentStyle={{
                     background: "#00d1b2",
-                    color: "#fff"
+                    color: "#fff",
                   }}
                   contentArrowStyle={{
-                    borderRight: "7px solid  #00d1b2"
+                    borderRight: "7px solid  #00d1b2",
                   }}
                   date="September 2011 - June 2016"
                   iconStyle={{
                     background: "#00d1b2",
-                    color: "#00d1b2"
+                    color: "#00d1b2",
                   }}
                 >
                   <h3 className="vertical-timeline-element-title">
@@ -102,7 +102,7 @@ const Experience = () => {
                     First Class Honours
                   </h5>
                   <p>
-                    Focus on Machine Learning and Data Science. Final year
+                    Focus on Machine Learning, NLP, and Data Science. Final year
                     research project concentrating on NLP and textual analysis
                     of film scripts.
                   </p>
