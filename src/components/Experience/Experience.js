@@ -22,6 +22,34 @@ const Experience = () => {
               <VerticalTimeline layout="1">
                 <VerticalTimelineElement
                   className="vertical-timeline-element--work"
+                  date="July 2020 - Present"
+                  iconStyle={{ background: "#00aff5", color: "#fff" }}
+                >
+                  <h3 className="vertical-timeline-element-title">
+                    Machine Learning Engineer
+                    <hr />
+                  </h3>
+
+                  <h3 className="vertical-timeline-element-subtitle">
+                    Keenious
+                  </h3>
+                  <p>
+                    <a href="https://keenious.com/">Keenious</a> is the new way
+                    of researching online. Using advanced NLP and search
+                    techniques Keenious analyses your writing and shows you the
+                    most relevant research from millions of online publications,
+                    in seconds.
+                    <br /> <br />
+                    My work ranges from using state-of-the-art NLP techniques to
+                    improve search relevance, building a fully explorable
+                    academic knowledge graph, to managing our entire search
+                    infrastructure on Kubernetes ensuring that everything runs
+                    smoothly at scale.
+                  </p>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                  className="vertical-timeline-element--work"
                   contentStyle={{
                     background: "#304160",
                     color: "#fff",
@@ -29,7 +57,7 @@ const Experience = () => {
                   contentArrowStyle={{
                     borderRight: "7px solid  #304160",
                   }}
-                  date="April 2019 - Present"
+                  date="April 2019 - June 2020"
                   iconStyle={{
                     background: "#304160",
                     color: "#304160",
@@ -53,7 +81,7 @@ const Experience = () => {
                   iconStyle={{ background: "#00aff5", color: "#fff" }}
                 >
                   <h3 className="vertical-timeline-element-title">
-                    Data Analyst and Developer
+                    Developer
                     <hr />
                   </h3>
 
@@ -61,9 +89,11 @@ const Experience = () => {
                     Borrowfox
                   </h3>
                   <p>
-                    Carried out analysis of marketplace trends and rental
-                    statistics to optimise and inform strategy. Developed
-                    keyword extraction API for user searches and query matching.
+                    Worked on various elements of the platforms' API and search
+                    backend. Additionally, I carried out analysis of marketplace
+                    trends and rental statistics to optimise and inform
+                    strategy. Developed keyword extraction API for user searches
+                    and query matching.
                   </p>
                 </VerticalTimelineElement>
               </VerticalTimeline>

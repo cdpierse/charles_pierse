@@ -7,23 +7,23 @@ import Slide from "react-reveal/Slide";
 import { SocialIcon } from "react-social-icons";
 import Wobble from "react-reveal/Jump";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     "& > *": {
-      margin: theme.spacing(1)
-    }
+      margin: theme.spacing(1),
+    },
   },
   small: {
     width: theme.spacing(3),
-    height: theme.spacing(3)
+    height: theme.spacing(3),
   },
   large: {
     boxShadow: " 16px 16px 32px #c5cbcf, -16px -16px 32px #ffffff;",
     margin: "0 Auto",
     width: theme.spacing(25),
-    height: theme.spacing(25)
-  }
+    height: theme.spacing(25),
+  },
 }));
 
 const About = () => {
@@ -64,12 +64,31 @@ const About = () => {
             <div className="col-sm-6 about-me">
               <h1>Who Am I ?</h1>
               <p className="about-me-text">
-                I'm a Data Scientist and Machine Learning Engineer with a passion for
-                building end-to-end intelligent systems. I use machine learning, AI, predictive analysis,
-                and data exploration to solve problems, and discover what makes
-                us tick and why.
+                I'm a Machine Learning Engineer with a passion for building
+                intelligent systems that make a difference. I use machine
+                learning and software engineering to solve problems.
+                <br></br>
+                <br></br>I work at Keenious where we are building the new way of
+                researching online. At Keenious I head up the development and
+                architecture of our in-house semantic search engine.
                 <br></br>
                 <br></br>
+                In my spare time I like to contribute to open source as both a
+                contributor and maintainer.
+                <br></br>
+                <br></br>I am the author of{" "}
+                <a href="https://github.com/cdpierse/transformers-interpret">
+                  {" "}
+                  Transformers Interpret
+                </a>{" "}
+                an explainable AI tool allowing users to understand transformer
+                model outputs in just 2 lines of code.
+                <br></br>
+                <br></br>I have also recently launched the beta release of{" "}
+                <a href="https://cinegraph.io/"> Cinegraph.io</a> a film
+                recommendation and search engine. Cinegraph's search is built
+                using custom trained knowledge graph embeddings and semantic
+                text embeddings.
               </p>
             </div>
           </div>

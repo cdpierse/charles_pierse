@@ -1,5 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import Grid from "@material-ui/core/Grid";
+import Paper from "@material-ui/core/Paper";
 import Slide from "react-reveal/Slide";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
@@ -39,18 +41,179 @@ const Skills = () => {
       <div className="container">
         <Slide bottom>
           <div className="row">
-            <div className="col md-6 about-me">
+            <div className="col-sm-6 about-me">
               <h1>What I Do</h1>
 
               <p className="about-me-text">
-                I work primarily with Python for data engineering, modelling,
-                and analysis. I use SQL for data extraction and ETL. I'm
-                experienced using React and JavaScript to build front end
-                applications. More recently I've been enjoying using Go to build
-                robust API services and systems.
+                I work primarily with Python for data engineering, modelling, software engineering, and API development.
+                I'm particularly interested in building ML systems that scale. I've built end-to-end systems using tools
+                like Kubernetes and the Elastic stack to achieve this.
+                <br></br>
+                <br></br>
+                For cloud services I have used both AWS and Azure for managing
+                production deployments.
+                <br></br>
+                <br></br>
+                For Machine Learning I am mostly using Pytorch these days for model development and design, but I have
+                extensively used Tensorflow/Keras in the past. My specialities within ML lie primarily in NLP and Explainable AI. 
+                <br></br>
+                <br></br>I also use Go wherever I can and for building high
+                performance systems and services. It's awesome.
               </p>
             </div>
-            <div className="col md-6 about-me">
+            <div className="col-sm-6 about-me">
+              <h1>What I Use</h1>
+              <Grid container spacing={6}>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"
+                    alt="aws"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+                    alt="azure"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
+                    alt="bash"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://d3r49iyjzglexf.cloudfront.net/circleci-logo-stacked-fb-657e221fda1646a7e652c09c9fbfb2b0feb5d710089bb4d8e8c759d37a832694.png"
+                    alt="CircleCI"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
+                    alt="docker"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg"
+                    alt="elastic"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src=" https://warehouse-camo.ingress.cmh1.psfhosted.org/c85479a07f8c2c1e96852331cf34c69a0501a0b3/68747470733a2f2f666173746170692e7469616e676f6c6f2e636f6d2f696d672f6c6f676f2d6d617267696e2f6c6f676f2d7465616c2d766563746f722e737667"
+                    alt="fastAPI"
+                    width="65"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                    alt="git"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/golang/golang-vertical.svg"
+                    alt="go"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
+                    alt="javascript"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg"
+                    alt="kubernetes"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg"
+                    alt="linux"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
+                    alt="postgresql"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/python/python-icon.svg"
+                    alt="python"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
+                    alt="pytorch"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
+                    alt="react"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
+                    alt="tensorflow"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+
+                <Grid item xs={3}>
+                  <img
+                    src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+                    alt="mongodb"
+                    width="50"
+                    height="50"
+                  />{" "}
+                </Grid>
+                
+              </Grid>
+            </div>
+            {/* <div className="col md-6 about-me">
               <br />
               <br />
               <div className={classes.root}>
@@ -170,7 +333,7 @@ const Skills = () => {
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
               </div>
-            </div>
+            </div> */}
           </div>
         </Slide>
       </div>

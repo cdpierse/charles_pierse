@@ -10,8 +10,7 @@ const Jumbo = () => {
       <Jumbotron className="jumbo">
         <h1 className="display-2 intro">Hi, I'm Charles</h1>
         <h3 className="intro2">
-          I'm a Data Scientist and Machine Learning Engineer, and I love to
-          build things
+          I'm a Machine Learning Engineer, and I love to build things
         </h3>
       </Jumbotron>
     </div>
